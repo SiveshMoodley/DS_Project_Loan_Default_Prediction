@@ -1,2 +1,21 @@
-# DS_Project_Loan_Default_Prediction
-Repository for the Bank Loan Default Prediction Data Science Project
+# Bank Loan Default Prediction
+
+## Project Overview
+
+
+## Code and Resources
+
+
+## Dataset
+
+
+## Data Preprocessing
+
+
+## EDA
+
+
+## Model Building
+
+
+## Model Performance
