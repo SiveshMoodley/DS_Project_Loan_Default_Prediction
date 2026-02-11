@@ -13,7 +13,7 @@ Python Requirements: pip install -r requirements.txt
 ## Dataset
 Source: MIT Professional Education
 
-Type: Educational Synthetic
+Type: Educational / Synthetic Dataset
 
 ## Data Preprocessing
 
