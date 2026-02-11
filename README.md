@@ -4,7 +4,11 @@
 
 
 ## Code and Resources
+Python Version: 3.10
 
+Packages: pandas, numpy, matplotlib, seaborn, scikit-learn, imblearn, xgboost
+
+Python Requirements: pip install -r requirements.txt
 
 ## Dataset
 
@@ -19,3 +23,6 @@
 
 
 ## Model Performance
+
+
+## Evaluation
