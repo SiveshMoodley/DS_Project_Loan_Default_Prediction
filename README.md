@@ -17,6 +17,23 @@ Source: MIT Professional Education
 
 Type: Educational / Synthetic Dataset
 
+The dataset represents historical loan applications from a financial institution, simulating real-world credit approval scenarios similar to those used by retail banks and lending platforms. The dataset contains borrower and loan information including:
+- Loan default or loan repaid
+- Loan amount approved
+- Amount due on existing mortgage
+- Current value of property
+- Reason for loan request
+- Occupation
+- Years at present job
+- No. of major derogatory loan reports
+- No. of delinquent credit lines
+- Age of the oldest credit line in months
+- Number of recent credit inquiries
+- Number of existing credit lines
+- Debt-to-income ratio
+
+The data is intended for educational and model development rather than commercial credit decisions. No personal or real customer information is included.
+
 ## Data Preprocessing
 
 
