@@ -35,7 +35,11 @@ The dataset represents historical loan applications from a financial institution
 The data is intended for educational and model development rather than commercial credit decisions. No personal or real customer information is included.
 
 ## Data Preprocessing
-
+The data was cleaned such that it was usable for the model. I conducted the following process:
+- Checked the data types of the columns in the dataset
+- Checked the data for duplicate rows and missing values
+- The dataset has no duplicate rows but has missing values
+- Input of median for missing values approach was used as robust to outliers and skewed distributions 
 
 ## EDA
 
