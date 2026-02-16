@@ -47,8 +47,8 @@ The data was prepared and split into training and test sets, with a 20% test siz
 Conducted exploratory analysis to examine the distributions of numerical variables and the frequency of categorical features. Key observations include:
 - 20% imbalance in the target variable with 20% of clients defaulting
 - Default risk is most strongly associated with credit behaviour and affordability indicators, notably DELINQ, DEROG, DEBTINC, and NINQ (with older credit history CLAGE reducing default likelihood)
-- Certain applicant segments show higher default rates, particularly Sales / Self-employed roles and Home Improvement (HomeImp) loan purposes, suggesting useful risk segmentation.
-- Several loan/asset variables (e.g., LOAN, MORTDUE, VALUE) show statistically significant differences between defaulters and non-defaulters, indicating meaningful separation for modeling.
+- Certain applicant segments show higher default rates, particularly Sales / Self-employed roles and Home Improvement (HomeImp) loan purposes, suggesting useful risk segmentation
+- Several loan/asset variables (e.g., LOAN, MORTDUE, VALUE) show statistically significant differences between defaulters and non-defaulters, indicating meaningful separation for modeling
   
 ## Model Building
 Multiple classification models were trained and evaluated:
