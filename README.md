@@ -69,7 +69,7 @@ Models were evaluated using Accuracy, ROC-AUC, Precision, and Recall, with parti
 - XGBoost with SMOTE obtained reasonable rounded performance (ROC-AUC: 0.89, Recall: 76%)
 - Gradient Boosting with SMOTE delivered the best balance, achieving Recall: 77%, Precision: 60%, Accuracy: 85%, ROC-AUC: 0.90, making it the recommended model
 
-## Evaluation
+## Project Evaluation
 - Identified key predictors of default risk, including DEBTINC, DELINQ, NINQ, DEROG, and YOJ, reinforcing the importance of borrower credit behavior and financial stability in risk assessment
 - Addressed dataset class imbalance using SMOTE, significantly improving defaulter recall (77%) while accepting lower precision (60%) — an appropriate trade-off in high-risk lending contexts
 - Determined Gradient Boosting with SMOTE as the optimal model, providing a strong balance between recall, precision, and ROC-AUC for decision-support use
