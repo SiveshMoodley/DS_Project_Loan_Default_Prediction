@@ -41,6 +41,8 @@ The data was cleaned such that it was usable for the model. I conducted the foll
 - The dataset has no duplicate rows but has missing values
 - Input of median for missing values approach was used as robust to outliers and skewed distributions 
 
+The data was prepared and split into training and test sets, with a 20% test size. Numerical features were scaled where required and categorical variables were encoded prior to modeling.
+
 ## EDA
 Conducted exploratory analysis to examine the distributions of numerical variables and the frequency of categorical features. Key observations include:
 - 20% imbalance in the target variable with 20% of clients defaulting
@@ -49,8 +51,6 @@ Conducted exploratory analysis to examine the distributions of numerical variabl
 - Several loan/asset variables (e.g., LOAN, MORTDUE, VALUE) show statistically significant differences between defaulters and non-defaulters, indicating meaningful separation for modeling.
   
 ## Model Building
-The data was prepared and split into training and test sets, with a 20% test size. Numerical features were scaled where required and categorical variables were encoded prior to modeling.
-
 Multiple classification models were trained and evaluated:
 - Logistic Regression – serves as a linear baseline to assess separability of classes under linear decision boundaries
 - Decision Tree – captures non-linear relationships and interaction effects without requiring feature transformation
